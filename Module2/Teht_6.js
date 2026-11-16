@@ -20,5 +20,4 @@ do
 {
     luku = heita_noppaa();
     document.getElementById("kissa").innerHTML += `<li>${luku}</li>`;
-}
-while (luku != 6);
+    if (luku === 6){break;}}

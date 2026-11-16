@@ -9,8 +9,7 @@ let vastaus = document.querySelector('#koira');
 let lista = [];
 
 for (let i = 0; i < 6; i += 1) {
-  let nimi = prompt("Syötä koiran nimi");
-  lista.push(nimi);
+  lista.push(prompt("Syötä koiran nimi"));
 }
 
 lista.sort().reverse();
